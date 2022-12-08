@@ -1,0 +1,18 @@
+﻿<label>Unit</label>
+<select ng-model="Calculate.unit">
+    <option value="">-- Select Unit --</option>
+    <option ng-repeat="item in Units" value="{{item.measure}}">{{item.measure}}</option>
+</select>
+<br />
+<label>Quantity</label>
+<input ng-model="Calculate.quantity" type="number" />
+<br />
+<label>Price</label>
+<input type="number" ng-model="Calculate.price" />
+<br />
+<label>Discount</label>
+<input type="text" ng-model="Calculate.discount" />
+<br />
+<button type="button" ng-click="Send()">Submit</button>
+
+<label>{{Results}}</label>

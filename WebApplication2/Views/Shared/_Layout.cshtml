@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org" ng-app="WebApplication">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="msapplication-TileColor" content="#0f75ff" />
+    <meta name="theme-color" content="#2ddcd3" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+
+    <script type="text/javascript" src="/plugins/jquery-2.2.4.js"></script>
+    <script type="text/javascript" src="/js/env.Development.js" asp-append-version="true"></script>
+</head>
+<body>
+    @RenderBody()
+    <div ng-view="">
+    </div>
+
+    <script type="text/javascript" src="/js/apps.js"></script>
+
+    <script type="text/javascript" src="/plugins/angular/angular.js"></script>
+    <script type="text/javascript" src="/plugins/angular/angular-cookies.min.js"></script>
+    <script type="text/javascript" src="/plugins/angular/ui-bootstrap-tpls.min.js"></script>
+    <script type="text/javascript" src="/plugins/angular/angular-animate.min.js"></script>
+    <script type="text/javascript" src="/plugins/angular/angular-route.min.js"></script>
+    <script type="text/javascript" src="/plugins/angular/angular-sanitize.js"></script>
+    <script type="text/javascript" src="/plugins/angular/angular-local-storage.min.js"></script>
+    <script type="text/javascript" src="/plugins/angular/angular-filter.js"></script>
+    <script type="text/javascript" src="/plugins/angular/loading-bar.min.js"></script>
+    <script type="text/javascript" src="/plugins/angular/ocLazyLoad.js"></script>
+    <script type="text/javascript" src="/plugins/angular/angular-translate.js"></script>
+    <script type="text/javascript" src="/plugins/angular/angular-translate-loader-static-files.js"></script>
+    <script type="text/javascript" src="/plugins/angular/angular-idle.min.js"></script>
+
+    <script type="text/javascript" src="/scripts/services/webService.js"></script>
+    <script type="text/javascript" src="/scripts/app.js"></script>
+</body>
+</html>
